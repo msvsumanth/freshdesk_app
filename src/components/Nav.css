@@ -1,0 +1,19 @@
+.navbar-toggler-icon {
+  background-color: rgba(128, 128, 128, 0.438);
+  border-radius:4px
+}
+
+.signupButton{
+  padding:3px;
+  font-size: 14px;
+  background-color: #25c16f ;
+  border:none
+}
+
+.navfont {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.popoverButton{
+    border: transparent;
+    background-color: transparent;
+    height:25px;
+    width:25px;
+}
+
+.popoverButton.focus, .popoverButton:focus {
+    outline: 0;
+    box-shadow: none!important;
+    
+}
+
+.popoverTextStyle{
+    display: flex;
+    text-align: justify;
+}

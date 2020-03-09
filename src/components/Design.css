@@ -1,0 +1,144 @@
+.imageBackground {
+  height: 74vh;
+  width: 128vh;
+  background-color: #e6e6e6;
+  border-radius: 6px;
+}
+
+.pictureDimensions img {
+  width: 122vh;
+  height: 68vh;
+  /* margin-top: 1px; */
+  margin-bottom: 7px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+}
+
+#dot {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+  margin-top: 10px;
+}
+/* .dotPadding{
+    padding-left:10px;
+} */
+.dot1 {
+  background-color: #fc635d;
+}
+.dot2 {
+  background-color: #fdbc40;
+}
+.dot3 {
+  background-color: #34c84a;
+}
+.supportButtons {
+  border: 1px solid#d3f3e2;
+}
+.supportButtons:hover {
+  background-color: #e9f9f0;
+  border: 1px solid#8ddeb3;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #d3f3e2;
+  border: 1px solid#8ddeb3;
+}
+
+.onePopover1 {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  text-align: center;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.twoPopover1 {
+  position: absolute;
+  top: 88%;
+  left: 63%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.onePopover2 {
+  position: absolute;
+  top: 28%;
+  left: 72%;
+  text-align: center;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.twoPopover2 {
+  position: absolute;
+  top: 83%;
+  left: 62%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.onePopover3 {
+  position: absolute;
+  top: 23%;
+  left: 24%;
+  text-align: center;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.twoPopover3 {
+  position: absolute;
+  top: 56%;
+  left: 71%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.onePopover4 {
+  position: absolute;
+  top: 63%;
+  left: 77%;
+  text-align: center;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.twoPopover4 {
+  position: absolute;
+  top: 86%;
+  left: 74%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.onePopover5 {
+  position: absolute;
+  top: 27%;
+  left: 53%;
+  text-align: center;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.twoPopover5 {
+  position: absolute;
+  top: 75%;
+  left: 89%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.ChatLogo img {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  top: 94%;
+  left: 94%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}

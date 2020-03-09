@@ -1,0 +1,74 @@
+.pinkBg {
+  background-color: #25c16f !important;
+  /* background-image: linear-gradient(90deg, #fd5581, #fd8b55); */
+}
+.intro-banner-vdo-play-btn {
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  margin: -50px 0 0 -50px;
+  border-radius: 100px;
+  z-index: 1;
+}
+
+.intro-banner-vdo-play-btn i {
+  line-height: 56px;
+  font-size: 30px;
+}
+.intro-banner-vdo-play-btn .ripple {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    margin: -24px 0 0 -24px;
+    border-radius: 100px;
+    animation: ripple 1s infinite;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes ripple {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.intro-banner-vdo-play-btn .ripple:nth-child(2) {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+.intro-banner-vdo-play-btn .ripple:nth-child(3) {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+
+.PoppoverTextPosition {
+  position: absolute;
+  /* top: 91%; */
+  left: -122%;
+  transform: translateY(-50%);
+  z-index: 1;
+  height: 102px;
+}
